@@ -1,0 +1,57 @@
+﻿img{
+    width:200px;
+    height:200px;
+}
+
+.grid_container {
+    display: grid;
+    text-align: center;
+    border: solid 3px black;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 1px;
+}
+
+.grid_item {
+    text-align: center;
+    font-size: 15px;
+    padding: 1px;
+    color: white;
+    margin: 1px;
+}
+
+.item_1 {
+    padding: 1px;
+    grid-row: 0/ span 1;
+    grid-column: 0/ span 1;
+}
+
+.item_2 {
+    padding: 1px;
+}
+
+.item_3 {
+    padding: 1px;
+}
+
+.item_4 {
+    padding: 1px;
+}
+
+.item_5 {
+    padding: 1px;
+    grid-area: 2/2/4/4;
+}
+
+.item_6 {
+    padding: 1px;
+    /*span - рястянуть на Х ячеек*/
+    grid-row: 4/ span 3;
+    grid-column: 1/ span 3;
+
+}
+
+.item_7 {
+    padding: 1px;
+    grid-area: 3/1/4/1;
+}

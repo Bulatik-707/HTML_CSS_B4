@@ -1,0 +1,99 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    background-color:red;
+}
+img{
+    width:200px;
+    height:200px;
+}
+/*.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+    height: 100vw;
+    max-height: 850px;
+}
+
+img {
+    width: 33.3%;
+}
+
+#item:hover {
+    opacity: 0.3;
+}*/
+
+.grid-container {
+    max-width: 730px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 370px;
+    grid-template-areas: "box-4 box-2" "box-3 box-1"
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        max-width: 450px;
+        grid: 1fr / 1fr;
+        grid-template-areas: "box-1" "box-2" "box-3" "box-4"
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 280px) {
+    .imageBox img {
+        min-width: 150px;
+    }
+}
+
+
+.dws-wrapper {
+    margin-top: 30px;
+}
+
+.grid-container {
+    display: grid;
+    max-width: 900px;
+    margin: 0 auto;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 220px 250px;
+    grid-template-areas: "box-3 box-2 box-1" "box-3 box-4 box-4";
+    background-color:white;
+}
+
+    .grid-container div:nth-child(1) {
+        grid-area: box-1;
+    }
+
+    .grid-container div:nth-child(2) {
+        grid-area: box-2;
+    }
+
+    .grid-container div:nth-child(3) {
+        grid-area: box-3;
+    }
+
+    .grid-container div:nth-child(4) {
+        grid-area: box-4;
+    }
+
+.imageBox {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+    .imageBox img {
+        width: 100%;
+    }
+
+    .imageBox h3 {
+        position: absolute;
+        font-size: 25px;
+        background: rgba(0,0,0, 0.4);
+        color: #ffffff;
+    }

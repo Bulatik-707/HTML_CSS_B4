@@ -1,0 +1,78 @@
+﻿
+h1.R {
+    color: red;
+    font-size: 23px;
+    text-align: center;
+}
+h1.H1 {
+    text-align: center;
+}
+h2.H2 {
+    text-align: center;
+}
+div {
+    align-content:center;
+}
+
+  /*Стиль на 1й столбик (через Класс)*/
+     td.td0 {
+    background-color:darkgray;
+}
+ td.td1{
+     background-color:antiquewhite;
+ }
+td.td2 {
+    background-color:deepskyblue;
+}
+td.td3 {
+    background-color:yellow;
+}
+td.td4 {
+    background-color:green;
+}
+td.td5 {
+    background-color:blueviolet;
+}
+td.td6 {
+    background-color: orangered;
+}
+td.td7 {
+    background-color:coral;
+}
+td.ned {
+    background-color: dodgerblue;
+}
+
+body.FontColor {
+    background-color: papayawhip;
+}
+table.THokey {
+    margin: auto;
+    background-color:azure;
+}
+td.ColorH{
+    background-color:ghostwhite;
+    text-align:center;
+}
+td.hokey_st1 {
+    background-color: darkgrey;
+    text-align: center;
+}
+td.hokey_stBlack {
+    background-color: black;
+    text-align: center;
+}
+td.hokey_stGreen {
+    background-color: palegreen;
+    text-align: center;
+}
+td.hokey_stRed {
+    background-color:indianred;
+    text-align:center;
+}
+
+img.Risynok {
+    width: 200px;
+    height: 200px;
+    padding: 11px;
+}

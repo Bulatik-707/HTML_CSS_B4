@@ -1,0 +1,26 @@
+﻿h3{
+    text-align:center;
+    color:white;
+}
+.Header{
+    width:100%;
+    height:200px;
+    background-color:forestgreen;
+}
+.Sidebar {
+    position: absolute;
+    width: 20%;
+    height: 250px;
+    background-color: blue;
+}
+.Senter {
+    float:left;
+    width: 100%;
+    height: 250px;
+    background-color:gainsboro;
+}
+.Footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}

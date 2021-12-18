@@ -1,0 +1,81 @@
+﻿.Risynok img {
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    color:green;
+}
+article{
+    width:800px;
+}
+article header p{
+    background-color:red;
+    color:white;
+}
+article figure{
+    width:600px;
+    border: 3px solid black;
+    padding:7px;
+}
+article figure img{
+    width:100%;
+}
+body{
+    font-family: Verdana;
+}
+
+
+.site-nav{
+    background-color:palevioletred;
+    list-style:none;
+    padding:0;
+    width:170px;
+    border: 1px solid MediumVioletRed;
+}
+.site-nav .site-nav-item{
+    border-bottom: 1px solid MediumVioletRed;
+    padding: 5px;
+}
+.site-nav .site-nav-item:last-child{
+    border-bottom:0;
+}
+.site-nav .site-nav-item a{
+    color: white;
+    text-decoration:none;
+}
+.site-nav .site-nav-item a:hover{
+    text-decoration: underline;
+}
+
+span{
+    display:block;
+}
+input[type="text"],
+input[type="email"]{
+    border: 1px solid blue;
+}
+.main-container{
+    max-width:1512px;
+    margin:auto;
+}
+.site-menu{
+    background-color:lightgoldenrodyellow;
+}
+.site-menu,
+.sidebar{
+    width:20%;
+    background-color:lightblue;
+}
+.main-content{
+    width:60%;
+    background-color:lightpink;
+}
+img{
+    float:right;
+}
+.site-menu,
+.main-content,
+.sidebar{
+    float:left;
+}

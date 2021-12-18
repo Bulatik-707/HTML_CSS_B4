@@ -1,0 +1,31 @@
+﻿.container{
+    background-color:yellowgreen;
+    text-align:center;
+    padding-top:150px; 
+    padding-bottom:150px;
+}
+.col-sm-3 {
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.col-sm-4{
+    text-align:center;
+    padding-top: 8px;
+    padding-bottom:8px;
+}
+.col-sm-5 {
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.col-sm-6 {
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.col-sm-7 {
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}

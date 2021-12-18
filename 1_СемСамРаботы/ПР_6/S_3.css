@@ -1,0 +1,67 @@
+﻿.container-fluid {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+
+.header .container-fluid {
+    background-color: blue;
+}
+
+.a {
+    background-color: darkviolet;
+}
+
+.b {
+    background-color: orange;
+}
+
+.footer .container-fluid {
+    background-color: blue;
+}
+
+.a1 {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.a2 {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.a3 {
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.a4 {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.a5 {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.a6 {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.b1 {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.b2 {
+    background-color: rgba(255, 255, 255, .66);
+}
+
+.b3 {
+    background-color: rgba(255, 255, 255, .33);
+}
+
+.b4 {
+    background-color: rgba(255, 255, 255, 0);
+}
+.col-sm-12{
+    background-color:dodgerblue;
+}

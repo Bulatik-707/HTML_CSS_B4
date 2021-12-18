@@ -1,0 +1,231 @@
+﻿body {
+    margin: 20px;
+    padding: 0;
+    font-family: "Georgia", serif;
+    line-height: 150%;
+}
+
+h1 {
+    line-height: 100%;
+}
+
+#pageBody {
+    max-width: 1200px;
+}
+
+#header, #nav, #footer, h1, h2, h3 {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    #header .inner {
+        margin: 0 0 20px 0;
+        padding: 20px;
+        color: #fff;
+        background: #86afbb;
+    }
+
+    #header a {
+        display: block;
+        float: right;
+        color: #fff;
+        font-weight: normal;
+        font-size: 80%;
+    }
+
+#content {
+    float: left;
+    width: /*65%*/ 75%;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+    #content .inner {
+        margin-right: 20px;
+        padding: 20px;
+        color: #333;
+        background: #E0E4CC;
+    }
+
+#sidebar {
+    float: right;
+    width: /*20%*/ 25%;
+    margin: 0;
+    padding: 0;
+}
+
+    #sidebar .inner {
+        padding: 20px;
+        color: #fff;
+        background: #69D2E7;
+        font-size: 85%;
+    }
+
+#nav {
+    float: right;
+    width: /*15%*/ 25%;
+    margin: 0;
+    padding: 0;
+}
+
+    #nav ul {
+        margin: 0;
+        padding: 20px;
+        list-style: none;
+        color: #333;
+        background: #50cea3;
+        overflow: hidden;
+    }
+
+    #nav li {
+        border-bottom: 1px solid rgba(255,255,255,.5);
+    }
+
+        #nav li:last-child {
+            border-bottom: none;
+        }
+
+    #nav a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 0 10px 10px;
+        font-weight: bold;
+    }
+
+        #nav a:hover {
+            background: #bce5e3;
+        }
+
+#footer {
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+    color: #fff;
+    background: #86afbb;
+}
+
+    #footer .inner {
+        padding: 5px 20px;
+    }
+    /*if ширина > 1000px*/
+@media screen and (min-width:1000px) {
+    body {
+        background-color: aqua;
+    }
+
+    #nav {
+        width: 15%;
+    }
+
+    #content {
+        width: 65%;
+    }
+
+    #sidebar {
+        width: 20%;
+    }
+    #sidebar .inner{
+        margin-right: 20px;
+    }
+}
+/*if ширина < 1000px*/
+@media screen and (max-width:1000px){
+    body {
+        background-color: green;
+    }
+    #nav {
+        width: 25%;
+    }
+
+    #content {
+        width: 75%;
+    }
+
+    #sidebar {
+        width: 25%;
+    }
+    #sidebar .inner{
+        margin-top: 20px;
+    }
+}
+/*if ширина < 700px*/
+@media screen and (max-width:700px){
+    body {
+        background-color: black;
+    }
+    #nav {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #nav li {
+    float:left;
+    margin-right:5px;
+    }
+    #content {
+        width:100%;
+    }
+    #content .inner {
+        margin-right: 0;
+
+    }
+    #sidebar {
+        width:100%;
+        margin-bottom: 20px;
+    }
+    
+}
+/*if ширина < 480px*/
+@media screen and (max-width:500px) {
+    body {
+        background-color: lightpink;
+    }
+    #header {
+        margin: 5px;
+    }
+        #header .inner{
+            margin: 0;
+            padding: 5px;
+        }
+    #nav {
+        float: none;
+        width: 100%;
+        margin: 5px;
+
+    }
+
+        #nav li {
+            float: left;
+            margin-right: 5px;
+        }
+
+    #content {
+        width: 100%;
+        margin: 5px;
+    }
+        #content .inner{
+            padding: 5px;
+        }
+
+    #sidebar {
+        width: 100%;
+        margin: 5px;
+    }
+        #sidebar .inner{
+            padding: 5px;
+            margin: 0;
+        }
+    #footer{
+        margin: 5px;
+    }
+        #footer .inner{
+            padding: 5px;
+        }
+}

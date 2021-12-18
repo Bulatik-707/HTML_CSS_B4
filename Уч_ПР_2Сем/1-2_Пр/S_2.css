@@ -1,0 +1,166 @@
+﻿body{
+    color:slategray;
+    font: 12px Tahoma, sans-serif;
+    background-color:white;
+    border-top: 5px solid black;
+    margin: 0;
+}
+h1 {
+    display: inline-block;
+    color: dimgray;
+    font: 40px, sans-serif;
+    background: url(CorporayeBlue/img/bg.png);
+    margin: 0;
+    padding: 0 10px;
+}
+/*Стили Для формы поиска и кнопки GO*/ 
+input[type="text"] {
+    background-color:lightcyan; 
+    border:1px solid lightgray;
+    height: 30px;
+    color:lightslategrey;
+    padding: 0 10px;
+    vertical-align: top;
+}
+button{
+    color:white;
+    background-color:deepskyblue;
+    border:none;
+    height:32px;
+    font-family:'Oswaid', sans-serif;
+}
+form[name="search"] {
+    float:right;
+}
+p{
+    margin: 20px 0;
+}
+#wrapper{
+    max-width:960px;
+    margin:auto;
+}
+#heading {
+    background: transparent url(CorporayeBlue/img/h1-bg.png);
+    margin: 30px 0;
+    padding-left: 20px;
+}
+header{
+    padding:20px 0;
+}
+nav{
+    background:  gainsboro;
+    border: 1px solid gainsboro;
+}
+nav a{
+    text-decoration:none;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style-position: inside;
+    font: 14px, sans-serif;
+    padding: 10px;
+} 
+.top-menu li {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+}
+.top-menu li .activite {
+    background: deepskyblue;
+    color:white;
+}
+.top-menu a {
+    color: black;
+}
+/*Колонки*/ 
+aside {
+    float: left;
+    width: 250px;
+}
+section {
+    margin-left: 280px;
+    padding-bottom: 50px;
+}
+/*Подменю*/
+.aside-menu li {
+    font-weight: 300;
+    list-style-type: square;
+    border-top: 1px solid gainsboro;
+}
+.aside-menu li:first-child {
+    border: none;
+}
+    .aside-menu li.active {
+        color: deepskyblue;
+    }
+.aside-menu a {
+    color: slategray;
+}
+/*img*/
+aside > h2 {
+    background: deepskyblue;
+    font: 15px 'Oswald', sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 30px 0 0 0;
+}
+aside > p {
+    background: gainsboro;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin: 0;
+}
+/*Цитата*/
+blockquote {
+    margin: 0;
+    background: deepskyblue;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+blockquote p {
+    color: white;
+    font-style: italic;
+    font-size: 33px;
+    margin: 0;
+}
+blockquote cite {
+    display:block;
+    font-size: 20px;
+    font-style: normal;
+    color: dodgerblue;
+    margin: 0;
+    text-align: right;
+}
+/*2 рисунка*/
+figure {
+    display: inline-block;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+    figure img {
+        display: block;
+        border: 1px solid white;
+        outline: 1px solid gainsboro;
+    }
+figure figcaption{
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+    figure figcaption span {
+        display: block;
+        font-size: 15px;
+        color: deepskyblue;
+    }
+section > figure + figure {
+    margin-left: 29px;
+}
+footer {
+    background-color:black;
+    height: 99px;
+}

@@ -1,0 +1,342 @@
+Style
+----------
+h1.R {
+    color: red;
+    font-size: 23px;
+    text-align: center;
+}
+h1.H1 {
+    text-align: center;
+}
+h2.H2 {
+    text-align: center;
+}
+div {
+    align-content:center;
+}
+
+  /*Стиль на 1й столбик (через Класс)*/
+     td.td0 {
+    background-color:darkgray;
+}
+ td.td1{
+     background-color:antiquewhite;
+ }
+td.td2 {
+    background-color:deepskyblue;
+}
+td.td3 {
+    background-color:yellow;
+}
+td.td4 {
+    background-color:green;
+}
+td.td5 {
+    background-color:blueviolet;
+}
+td.td6 {
+    background-color: orangered;
+}
+td.td7 {
+    background-color:coral;
+}
+td.ned {
+    background-color: dodgerblue;
+}
+
+body.FontColor {
+    background-color: papayawhip;
+}
+table.THokey {
+    margin: auto;
+    background-color:azure;
+}
+td.ColorH{
+    background-color:ghostwhite;
+    text-align:center;
+}
+td.hokey_st1 {
+    background-color: darkgrey;
+    text-align: center;
+}
+td.hokey_stBlack {
+    background-color: black;
+    text-align: center;
+}
+td.hokey_stGreen {
+    background-color: palegreen;
+    text-align: center;
+}
+td.hokey_stRed {
+    background-color:indianred;
+    text-align:center;
+}
+
+img.Risynok {
+    width:200px;
+    height:200px;
+    padding: 11px 11px 11px 11px;
+}
+========
+Raspisanie
+----------
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="краткое описание">
+    <link href="StyleTable.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>   
+    <h1 class="R">Расписание уроков</h1>
+    <div>
+    <img  src="собака.GIF"  > <br />
+        </div>
+    <table border="1">
+     <tr>
+         <td class="td0"></td>
+         <td class="td1"> </td>
+         <td class="ned">Понедельник </td>  
+         <td class="ned">Вторник</td>   
+         <td class="ned">Среда </td>   
+         <td class="ned">Четверг </td> 
+         <td class="ned">Пятница </td>
+         <td class="ned">Суббота </td>
+         </tr>
+        
+        <tr>
+            <!--Строка-->
+            <td  class="td0">1</td> <!--Запись-->
+            <td class="td1">9.00-9.40</td>  <!--Время-->
+            <td class="td2"></td>
+            <td class="td3">Литература</td>   <!--Вт-->
+            <td class="td4"></td>
+            <td class="td5">Алгебра</td>  <!--Чт-->
+            <td class="td6">Физика</td>
+            <td class="td7">География</td> <!--Сб-->
+        </tr>
+        <tr>   <!--Строка-->
+            <td class="td0">2</td> <!--Запись-->
+            <td class="td1">9.50-10.30</td>  <!--Время-->
+            <td class="td2">Алгебра</td>
+            <td class="td3">Литература</td>   <!--Вт-->
+            <td class="td4">Физика</td>
+            <td class="td5">Алгебра</td>  <!--Чт-->
+            <td class="td6">Физика</td>
+            <td class="td7">География</td> <!--Сб-->
+        </tr>
+        <tr>
+            <!--Строка-->
+            <td class="td0">3</td> <!--Запись-->
+            <td class="td1">10.40-11.20</td>  <!--Время-->
+            <td class="td2">Алгебра</td>
+            <td class="td3">История</td>   <!--Вт-->
+            <td class="td4">Физика</td>
+            <td class="td5">Биоглогия</td>  <!--Чт-->
+            <td class="td6">Химия</td>
+            <td class="td7">Биология</td> <!--Сб-->
+        </tr>
+        <tr>
+            <!--Строка-->
+            <td class="td0">4</td> <!--Запись-->
+            <td class="td1">11.30-12.10</td>  <!--Время-->
+            <td class="td2">Литеравтура</td>
+            <td class="td3">История</td>   <!--Вт-->
+            <td class="td4">Физ-ра</td>
+            <td class="td5">Правоведение</td>  <!--Чт-->
+            <td class="td6">Химия</td>
+            <td class="td7"></td> <!--Сб-->
+        </tr>
+        <tr>
+            <!--Строка-->
+            <td class="td0">5</td> <!--Запись-->
+            <td class="td1">12.20-13.00</td>  <!--Время-->
+            <td class="td2">Физ-ра</td>
+            <td class="td3">Геометрия</td>   <!--Вт-->
+            <td class="td4">ОБЖ</td>
+            <td class="td5">Англ.яз</td>  <!--Чт-->
+            <td class="td6">Информатика</td>
+            <td class="td7"></td> <!--Сб-->
+        </tr>
+        <tr>
+            <!--Строка-->
+            <td class="td0">6</td> <!--Запись-->
+            <td class="td1">13.10-13.50</td>  <!--Время-->
+            <td class="td2">Химия</td>
+            <td class="td3">Геометрия</td>   <!--Вт-->
+            <td class="td4">ОБЖ</td>
+            <td class="td5"></td>  <!--Чт-->
+            <td class="td6">Информатика</td>
+            <td class="td7"></td> <!--Сб-->
+        </tr>
+        <tr>
+            <!--Строка-->
+            <td class="td0">7</td> <!--Запись-->
+            <td class="td1">14.00-14.40</td>  <!--Время-->
+            <td class="td2"></td>
+            <td class="td3"></td>   <!--Вт-->
+            <td class="td4">Англ.яз</td>
+            <td class="td5"></td>  <!--Чт-->
+            <td class="td6">Правоведение</td>
+            <td class="td7"></td> <!--Сб-->
+        </tr>
+        <tr>
+            <!--Строка-->
+            <td class="td0">8</td> <!--Запись-->
+            <td class="td1">14.50-15.10</td>  <!--Время-->
+            <td class="td2"></td>
+            <td class="td3"></td>   <!--Вт-->
+            <td class="td4"></td>
+            <td class="td5"></td>  <!--Чт-->
+            <td class="td6"></td>
+            <td class="td7"></td> <!--Сб-->
+        </tr>
+    </table>
+</body>
+</html>
+
+===========
+Hokey
+----------
+  <link href="StyleTable.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body  class="FontColor">   
+
+    <h1 class="H1">Чемпионат мира по хоккею</h1>
+    <h2 class="H2">Таблица результатов</h2>
+
+   
+  
+        <table border="1" class="THokey">
+
+
+            <tr>
+                <td class="hokey_st1"></td>
+                <td class="hokey_st1">Команда</td>
+                <td class="hokey_st1">1</td>
+                <td class="hokey_st1">2</td>
+                <td class="hokey_st1">3</td>
+                <td class="hokey_st1">4</td>
+                <td class="hokey_st1">5</td>
+                <td class="hokey_st1">6</td>
+                <td class="hokey_st1">Шайбы</td>
+                <td class="hokey_st1">Очки</td>
+
+            </tr>
+
+            <tr>
+                <!--Строка 1-->
+                <td class="hokey_st1">1</td>
+                <td class="hokey_st1">"РОТОР"</td> <!--Команда-->
+                <td class="hokey_stBlack"></td>
+                <td> 6:4</td> <!--2-->
+                <td>2:3</td>
+                <td>7:3</td>   <!--4-->
+                <td>2:1</td>
+                <td>0:0</td>   <!--6-->
+                <td class="hokey_stGreen">17-11</td>
+                <td class="hokey_stRed">7</td>   <!--Очки-->
+            </tr>
+
+            <tr>
+                <!--Строка 2-->
+                <td class="hokey_st1">2</td>
+                <td class="hokey_st1">"РОТАТОР"</td> <!--Команда-->
+                <td>4:6</td>
+                <td class="hokey_stBlack"></td> <!--2-->
+                <td>5:4</td>
+                <td>5:3</td>   <!--4-->
+                <td>5:5</td>
+                <td>2:2</td>   <!--6-->
+                <td class="hokey_stGreen">21-10</td>
+                <td class="hokey_stRed">6</td>   <!--Очки-->
+            </tr>
+            <tr>
+                <!--Строка 3-->
+                <td class="hokey_st1">3</td>
+                <td class="hokey_st1">"УРОЖАЙ"</td> <!--Команда-->
+                <td>3:2</td>
+                <td>4:5</td> <!--2-->
+                <td class="hokey_stBlack"></td>
+                <td>0:1</td>   <!--4-->
+                <td>11:2</td>
+                <td>14:4</td>   <!--6-->
+                <td class="hokey_stGreen">32-14</td>
+                <td class="hokey_stRed">6</td>   <!--Очки-->
+            </tr>
+            <tr>
+                <!--Строка 4-->
+                <td class="hokey_st1">4</td>
+                <td class="hokey_st1">"МЕЧТА"</td> <!--Команда-->
+                <td>3:7</td>
+                <td>3:5</td> <!--2-->
+                <td>1:0</td>
+                <td class="hokey_stBlack"></td>   <!--4-->
+                <td>1:1</td>
+                <td>10:0</td>   <!--6-->
+                <td class="hokey_stGreen">18-13</td>
+                <td class="hokey_stRed">5</td>   <!--Очки-->
+            </tr>
+            <tr>
+                <!--Строка 5-->
+                <td class="hokey_st1">5</td>
+                <td class="hokey_st1">"МЕЧТА"</td> <!--Команда-->
+                <td>1:2</td>
+                <td>5:5</td> <!--2-->
+                <td>2:11</td>
+                <td>1:1</td>   <!--4-->
+                <td class="hokey_stBlack"></td>
+                <td>8:3</td>   <!--6-->
+                <td class="hokey_stGreen">17-21</td>
+                <td class="hokey_stRed">4</td>   <!--Очки-->
+            </tr>
+            <tr>
+                <!--Строка 6-->
+                <td class="hokey_st1">6</td>
+                <td class="hokey_st1">"ОКАЗИЯ"</td> <!--Команда-->
+                <td>0:0</td>
+                <td>2:2</td> <!--2-->
+                <td>4:14</td>
+                <td>0:10</td>   <!--4-->
+                <td>3:8</td>
+                <td class="hokey_stBlack"></td>   <!--6-->
+                <td class="hokey_stGreen">9-34</td>
+                <td class="hokey_stRed">2</td>   <!--Очки-->
+            </tr>
+
+        </table>
+</body>
+</html>
+
+========
+Kartinki v Table
+---------------
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="краткое описание">
+    <link href="StyleTable.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+   
+    <table border="1">
+        
+
+        <tr>
+            <td > <img class="Risynok" src="Рис_3.jpg" /></td>
+            <td ><img class="Risynok" src="Рис_5.jpg" /></td>
+            <td ><img class="Risynok" src="Рис_6.jpg" /></td>
+
+        </tr>
+        <tr>
+            <td><img class="Risynok" src="Рис_0.jpg" /></td>
+            <td><img class="Risynok" src="Рис_1.jpg" /></td>
+            <td><img class="Risynok" src="Рис_4.jpg" /></td>
+        </tr>
+        </table>
+</body>
+</html>

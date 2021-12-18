@@ -1,0 +1,209 @@
+﻿body {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    background-color: grey;
+}
+
+p {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+header {
+    font-family: cursive;
+}
+
+h1 {
+    display: inline;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.div_background_img {
+    background-image: url(img/Фон_шапки.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    /* настройка заголовка */
+    text-align: center;
+    color: yellow;
+    font-size: 35px;
+}
+
+.div_background_img #header_image {
+    width: 180px;
+    height: 180px;
+    border-radius: 80px; /* закругление углов для всех, кто понимает */
+    position: relative;
+    top: 50px;
+}
+
+#bgc_img_line {
+    position: relative;
+    top: 160px;
+    margin: auto;
+    width: 90%;
+}
+
+.nav_menu {
+    text-align: center;
+    background-color: #CD5C5C;
+    margin-top: -50px;
+    height: 100px;
+}
+
+    .nav_menu ul {
+        position: relative;
+        top: 25px;
+    }
+
+    .nav_menu li {
+        display: inline;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+        .nav_menu li span {
+            color: black;
+            font-size: 30px;
+        }
+
+.content {
+    background-color: #EEE8AA;
+    margin-top: -25px;
+}
+
+    .content .vopros_h2 {
+        text-align: center;
+    }
+
+    .content .biloe {
+        font-size: 20px;
+        height: 250px;
+        margin: 25px;
+    }
+
+        .content .biloe p #zoloto1 {
+            position: relative;
+            width: 150px;
+            height: 120px;
+            float: left;
+            right: 10px;
+        }
+
+        .content .biloe p span {
+            font-weight: bold;
+        }
+
+
+.sovremennost {
+    margin: 25px;
+    margin-bottom: -200px;
+}
+
+    .sovremennost .metalls {
+        position: relative;
+        left: 700px;
+        top: 30px;
+    }
+
+        .sovremennost .metalls .metall {
+            display: inline;
+            margin: 5px;
+        }
+
+            .sovremennost .metalls .metall img {
+                width: 100px;
+                height: 100px;
+            }
+
+    .sovremennost .sovremennost_text {
+        position: relative;
+        bottom: 250px;
+        font-size: 20px;
+    }
+
+.opisanie_metall p {
+    margin-right: 80px;
+}
+
+    .opisanie_metall p #slitki {
+        position: relative;
+        width: 250px;
+        height: 150px;
+        float: right;
+    }
+
+hr {
+    width: 90%;
+}
+
+
+.table h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font-weight: normal;
+}
+
+tr, th {
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.kamni_text {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+    .kamni_text img {
+        width: 200px;
+        height: 100px;
+        margin: 13px;
+    }
+
+    .kamni_text #kamni_text_imgleft {
+        float: left;
+    }
+
+    .kamni_text #kamni_text_imgright {
+        float: right;
+    }
+
+
+.kamni_tablitsa {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+    .kamni_tablitsa .table_of_rocks {
+        background-image: url(img/Синий_фон.jpg);
+        background-repeat: no-repeat;
+        margin: auto;
+        width: 70%;
+    }
+
+footer {
+    background-color: #B8860B;
+    margin-top: -30px;
+    width: 100%;
+    height: 100px;
+}
+
+    footer h2, footer hr {
+        position: relative;
+        text-align: center;
+        top: 15px;
+        font-size: 23px;
+        font-style: italic;
+    }

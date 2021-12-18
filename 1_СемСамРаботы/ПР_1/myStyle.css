@@ -1,0 +1,36 @@
+﻿body.H2 {
+    background-color:black;
+    color: dodgerblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.H2 {
+    color: red;
+    font-size: 19px;
+}
+
+/* ========== */
+
+body.H3 {
+    font-family: Arial, Helvetica, sans-serif;
+     /* text-align: center; */
+ background-color:#000000a4 ;
+  /*     color:red; */
+}
+
+h1.H3 {
+    font-size:22px; 
+    font-weight: normal;
+    margin: 0;
+}
+
+h2.H3 {
+    font-size: 30px;
+ 
+}
+
+p.H3 {
+    /* color: red; */
+    font-size: 19px;
+}

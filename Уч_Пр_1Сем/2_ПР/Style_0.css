@@ -1,0 +1,27 @@
+﻿img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex_container {
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: row; /*горизонт*/
+    /*flex-direction:column;    /*вертикаль*/
+    flex-wrap: wrap; /*перенос на новую строку*/
+    /*justify-content:flex-start;*/ /*слево*/
+    /*justify-content:flex-end;*/ /*справо*/
+    justify-content: center; /*по центру*/
+}
+    .flex_container > div {
+        background-color: black;
+        width: 99px;
+        margin: 9px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 35px;
+        /*align-items: flex-start;*/ /*сверху*/
+        /*align-items: flex-end;*/ /*внизу*/
+        align-items: center;
+        flex-grow: 1;
+    }

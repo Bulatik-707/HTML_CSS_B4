@@ -1,0 +1,42 @@
+﻿img {
+    width: 199px;
+    height: 200px;
+    border: solid;
+}
+
+h1 {
+    font-size: 17px;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    line-height:19px;
+}
+
+.flex_vertik {
+    display: flex;
+    background-color: silver;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.flex_vertik > div {
+        align-items: stretch;
+        width: 220px;
+        margin: 9px;
+        text-align: center;
+        background-color: white;
+        line-height: 75px;
+        font-size: 35px;
+}
+
+.flex_vertik > img {
+        margin: 9px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 35px;
+}

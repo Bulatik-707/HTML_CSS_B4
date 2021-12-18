@@ -1,0 +1,19 @@
+ul {
+  display: block; /*activate power*/ 
+  
+  margin: 0;
+  padding: 0;
+  background: #ea8c8c;
+  list-style: none;
+  
+}
+
+li {
+  margin: 5px; /* Adds space between items */
+  background: #c3e2d2;
+  border-radius: 3px;
+}
+
+ul li:last-of-type {
+  
+}

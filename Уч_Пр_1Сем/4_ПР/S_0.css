@@ -1,0 +1,83 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#fff;
+    font-family: arial, verdana, tahoma;
+}
+
+.accordian {
+    /* 4 рис */
+    /* width: 725px; */
+    
+    /* 6 рис */
+    width: 805px;
+    height: 300px;
+    overflow: hidden;
+    margin: 30px auto;
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/* Штобы не мелькала в браузере */
+.accordian ul{
+    width: 2000px;
+}
+
+.accordian li {
+    position: relative;
+    display: block;
+    /* Ширина 1 изобр if 4 рисунка (720px / 4 = 180px), для 6 рис 
+        [Ширина слайдера = 600 + 40 * 5 = 800] (800px / 6 = 133px) */
+    /* 4 рис */
+    /* width: 180px; */
+
+    /* 6 рис */
+    width: 133px;
+    float: left;
+    border-left: 2px solid #888;
+    /*Тени*/
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.35);
+    /* Создание анимации с помощью переходов */
+    -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    transition: all 0.9s;
+}
+
+/*Уменьшаем ширину неактивного изобр.*/
+.accordian ul:hover li{
+    width: 40px;
+}
+
+/* Ширина изобр. при поднесении курсора
+li:hover переопределит ul:hover */
+.accordian ul li:hover{
+    width: 600px;
+}
+
+.accordian li img{
+    display: block;
+    /* width: 500px; */
+}
+
+/* Стиль для блока со ссылкой */
+.image_title {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 600px;
+}
+/* Стиль ссылок */
+.image_title a{
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+}

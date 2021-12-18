@@ -1,0 +1,14 @@
+﻿.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns:repeat(3, 1fr); /*повторить 3 рза*/
+    background-color: aqua;
+    grid-gap:2vw;
+}
+    .grid > div {
+        font-size: 21px;
+        padding: .5em;
+        background-color: green;
+        text-align: center;
+        /*border: solid;*/  /*рамка*/
+    }

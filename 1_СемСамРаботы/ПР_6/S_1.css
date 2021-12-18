@@ -1,0 +1,51 @@
+﻿.container {
+    background-color: deepskyblue;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-md-1 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.col-md-2 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.col-md-3 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.col-md-4 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.col-md-5 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.col-md-6 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.col-md-7 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.col-md-12 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}

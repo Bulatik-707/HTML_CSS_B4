@@ -1,0 +1,21 @@
+﻿img {
+    width: 150px;
+    height: 150px;
+    border:solid;
+}
+.flex_vertik {
+    display:flex;
+    background-color: blue;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap:wrap;
+    height:700px;
+}
+.flex_vertik > img {
+        width: 199px;
+        margin: 9px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 35px;
+}
