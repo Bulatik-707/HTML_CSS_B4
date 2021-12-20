@@ -1,81 +1,164 @@
-﻿.Risynok img {
-    width: 200px;
-    height: 200px;
+﻿/* =--- H_1 ---= */
+body.H1 {
+    font-family: Verdana;
+    background-color: rgb(202, 199, 199);
+    padding: 5px;    
+    margin-left: 20px;
 }
-
-h1{
-    color:green;
+body p.H1 {
+    font-size: 15px;
+}
+h1.H1 {
+    color: green;
+    margin: 0;
 }
 article{
-    width:800px;
+    width: 800px;
 }
 article header p{
-    background-color:red;
-    color:white;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
 }
 article figure{
-    width:600px;
-    border: 3px solid black;
-    padding:7px;
+    width: 73%;
+    border: 2px solid black;
+    padding: 5px;
 }
 article figure img{
-    width:100%;
-}
-body{
-    font-family: Verdana;
+    width: 100%;
 }
 
-
+/* _-_-_-_- H_2 _-_-_-_ */
 .site-nav{
-    background-color:palevioletred;
-    list-style:none;
-    padding:0;
-    width:170px;
+    background-color: palevioletred;
+    list-style: none;
+    padding: 0;
+    width: 170px;
     border: 1px solid MediumVioletRed;
 }
 .site-nav .site-nav-item{
     border-bottom: 1px solid MediumVioletRed;
     padding: 5px;
+
 }
 .site-nav .site-nav-item:last-child{
-    border-bottom:0;
+    border-bottom: 0;
 }
 .site-nav .site-nav-item a{
     color: white;
-    text-decoration:none;
+    text-decoration: none;
+    font-size: 17px;
 }
 .site-nav .site-nav-item a:hover{
     text-decoration: underline;
+    color: rgb(0, 0, 0);
 }
 
+/* ---- H_3 ----- */
+
+body.H3 {
+    font-family: Verdana;
+    background-color: rgb(221, 221, 221);
+    padding: 5px;    
+    margin-left: 20px;
+}
+
+.site-menu.H3{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+}
+.site-menu.H3 ul {
+    background-color: palevioletred;
+    list-style: none;
+    padding: 0;
+    width: 150px;
+    border: 1px solid MediumVioletRed;
+    border-radius: 10px;
+}
+.site-menu.H3 li {
+    border-bottom: 1px solid MediumVioletRed;
+    padding: 5px;
+    border-radius: 10px;
+}
+.site-menu.H3:last-child li {
+    border-bottom: 0;
+}
+.site-menu.H3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.site-menu.H3 a:hover {
+    text-decoration: underline;
+    color: rgb(21, 42, 226);
+    background-color: rgb(212, 212, 212);
+}
+
+
 span{
-    display:block;
+    display: block;
 }
 input[type="text"],
 input[type="email"]{
-    border: 1px solid blue;
+    border: 2px solid rgb(19, 19, 206);
+    border-radius: 7px;
 }
-.main-container{
-    max-width:1512px;
-    margin:auto;
+.main-container.H3{
+    /* max-width: 1512px; */
+    margin: auto;
 }
-.site-menu{
-    background-color:lightgoldenrodyellow;
+.main-content.H3{
+    max-width: 800px;
+    background-color: lightpink;
+    border-radius: 15px;
 }
-.site-menu,
-.sidebar{
+
+.main-content.H3 article {
+    /* width: 800px; */
+    width: 100%;
+}
+.main-content.H3 p {
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.main-content.H3 h1 {
+    color: green;
+    margin: 0;
+    padding: 5px;
+    padding-left: 10px;
+}
+.main-content.H3 article header p {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.main-content.H3 article figure {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.main-content.H3 article figure img {
+    float: right;
+    width: 100%;
+    border-radius: 13px;
+
+}
+
+.main-content.H3 form {
+    padding: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.sidebar.H3{
+    float: right;
     width:20%;
-    background-color:lightblue;
-}
-.main-content{
-    width:60%;
-    background-color:lightpink;
-}
-img{
-    float:right;
-}
-.site-menu,
-.main-content,
-.sidebar{
-    float:left;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
 }

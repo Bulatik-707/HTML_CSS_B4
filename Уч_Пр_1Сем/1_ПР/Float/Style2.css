@@ -35,7 +35,7 @@ h1 {
     font-size: 35px;
 }
 
-.div_background_img #header_image {
+.div_background_img #header_image_logo {
     width: 180px;
     height: 180px;
     border-radius: 80px; /* закругление углов для всех, кто понимает */
@@ -191,6 +191,11 @@ tr, th {
         background-repeat: no-repeat;
         margin: auto;
         width: 70%;
+    }
+    .kamni_tablitsa .table_of_rocks img{
+        padding: 5px;
+        width: 200px;
+        height: 150px;
     }
 
 footer {

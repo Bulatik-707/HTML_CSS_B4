@@ -1,25 +1,31 @@
-﻿h3{
-    text-align:center;
-    color:white;
+﻿body {
+    text-align: center;
+    background-color: aliceblue;
 }
-.Header{
+h3 {
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+.Header {
     width:100%;
-    height:200px;
-    background-color:forestgreen;
+    height:150px;
+    background-color: forestgreen;
 }
 .Sidebar {
     position: absolute;
-    width: 20%;
+    min-width: 20%;
     height: 250px;
     background-color: blue;
 }
-.Senter {
-    float:left;
-    width: 100%;
+.Content {
+    float: right;
+    min-width: 80%;
     height: 250px;
-    background-color:gainsboro;
+    background-color: gainsboro;
 }
 .Footer {
+    float: left;
     width: 100%;
     height: 100px;
     background-color: black;
