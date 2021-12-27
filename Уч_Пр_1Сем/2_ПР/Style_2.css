@@ -1,21 +1,35 @@
 ﻿img {
     width: 150px;
-    height: 150px;
-    border:solid;
+    height: 130px;
+    padding: 7px;
 }
-.flex_vertik {
-    display:flex;
-    background-color: blue;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    flex-wrap:wrap;
-    height:700px;
+h1 {
+font-size: 19px;
+text-align: center;
 }
-.flex_vertik > img {
-        width: 199px;
-        margin: 9px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 35px;
+
+p {
+ font-size:17px;
+}
+.flex_container {
+    display: flex;
+    background-color: pink;
+    flex-direction: row; /*Горизонт*/
+    flex-wrap: wrap;
+    /*Положение Текста*/
+    /*align-items: flex-start;*/ /*слева*/
+    /*justify-content:flex-start;*/
+    /*align-items: flex-start;*/ /*справа*/
+    /*justify-content:flex-end;*/
+    align-items: baseline; /*по центру*/
+    padding: 5px;
+    width: 373px;
+    height: 550px;
+    max-width: 40em;
+}
+    .flex_container > div {
+        background-color: deeppink;
+    }
+.DiV1{
+    flex: 1;
 }

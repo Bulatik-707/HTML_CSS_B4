@@ -2,10 +2,6 @@
     display: grid;
     grid-template-rows: repeat(3, 2fr);
     grid-template-columns: repeat(2, 2fr);
-    /*-------******-------*/
-    /*grid-template-rows: repeat(3, 2fr);
-    grid-template-columns: repeat(3, 2fr);*/
-    /*-------******-------*/
     background-color: lightslategrey;
     border: solid;
     width: 500px;
@@ -28,4 +24,10 @@
 }
 .green {
     background-color: limegreen;
+}
+
+.grid#id7{
+    grid-template-rows: repeat(3, 2fr);
+    grid-template-columns: repeat(3, 2fr);
+    margin-top: 20px;
 }

@@ -5,6 +5,7 @@
     background-color: white;
     padding: 13px;
     grid-gap: 3px;
+    width: 500px;
 }
 
 .grid > div {
@@ -23,7 +24,7 @@
     background-image: url(К_практ_4/cat_1.svg);
     width: 90px;
     height: 90px;
-    border:solid;
+    border: solid;
 }
 .div_3 {
 

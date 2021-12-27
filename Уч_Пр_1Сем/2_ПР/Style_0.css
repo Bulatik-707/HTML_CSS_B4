@@ -1,27 +1,35 @@
 ﻿img {
     width: 100%;
     height: 100%;
+    /* border: 2px solid black; */
 }
-
+/* https://wp-kama.ru/id_8045/flex-v-css.html#flex-direction */
 .flex_container {
     display: flex;
     background-color: dodgerblue;
-    flex-direction: row; /*горизонт*/
-    /*flex-direction:column;    /*вертикаль*/
-    flex-wrap: wrap; /*перенос на новую строку*/
-    /*justify-content:flex-start;*/ /*слево*/
-    /*justify-content:flex-end;*/ /*справо*/
-    justify-content: center; /*по центру*/
+        /* flex-direction Изменяет направление главной оси контейнера. */
+    /* flex-direction: row; row (default) - направление элементов слева направо (→) */
+        /*flex-wrap Управляет переносом непомещающихся в контейнер элементов. */
+    /* flex-wrap: wrap; wrap перенос на новую строку */
+
+    /* flex-flow принимает значения двух  свойств (lex-direction и flex-wrap)*/
+    flex-flow: row wrap;    
+    justify-content: center;
+    align-items: center;
+
 }
     .flex_container > div {
-        background-color: black;
-        width: 99px;
+        background-color: pink;
+        width: 150px;
+        height: 150px;
         margin: 9px;
-        text-align: center;
+        padding: 3px;
         line-height: 75px;
         font-size: 35px;
-        /*align-items: flex-start;*/ /*сверху*/
-        /*align-items: flex-end;*/ /*внизу*/
-        align-items: center;
-        flex-grow: 1;
+        /*flex-grow kоэффициент увеличения (0, 1, 3) элемента при наличии 
+        свободного места в контейнере.
+        flex-grow: 0 т.е. никакой из элементов не должен увеличиваться и заполнять свободное место в контейнере.
+        flex-grow:1, то все они растянуться одинаково и заполнять все свободное место в контейнере.
+        flex-grow:3, то они будут одинакового размера*/
+        flex-grow: 0;
     }

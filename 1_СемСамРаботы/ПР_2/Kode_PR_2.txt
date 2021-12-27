@@ -15,7 +15,7 @@ div {
     align-content:center;
 }
 
-  /*Стиль на 1й столбик (через Класс)*/
+  /*РЎС‚РёР»СЊ РЅР° 1Р№ СЃС‚РѕР»Р±РёРє (С‡РµСЂРµР· РљР»Р°СЃСЃ)*/
      td.td0 {
     background-color:darkgray;
 }
@@ -83,113 +83,113 @@ Raspisanie
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="краткое описание">
+    <meta name="description" content="РєСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ">
     <link href="StyleTable.css" rel="stylesheet" />
     <title></title>
 </head>
 <body>   
-    <h1 class="R">Расписание уроков</h1>
+    <h1 class="R">Р Р°СЃРїРёСЃР°РЅРёРµ СѓСЂРѕРєРѕРІ</h1>
     <div>
-    <img  src="собака.GIF"  > <br />
+    <img  src="СЃРѕР±Р°РєР°.GIF"  > <br />
         </div>
     <table border="1">
      <tr>
          <td class="td0"></td>
          <td class="td1"> </td>
-         <td class="ned">Понедельник </td>  
-         <td class="ned">Вторник</td>   
-         <td class="ned">Среда </td>   
-         <td class="ned">Четверг </td> 
-         <td class="ned">Пятница </td>
-         <td class="ned">Суббота </td>
+         <td class="ned">РџРѕРЅРµРґРµР»СЊРЅРёРє </td>  
+         <td class="ned">Р’С‚РѕСЂРЅРёРє</td>   
+         <td class="ned">РЎСЂРµРґР° </td>   
+         <td class="ned">Р§РµС‚РІРµСЂРі </td> 
+         <td class="ned">РџСЏС‚РЅРёС†Р° </td>
+         <td class="ned">РЎСѓР±Р±РѕС‚Р° </td>
          </tr>
         
         <tr>
-            <!--Строка-->
-            <td  class="td0">1</td> <!--Запись-->
-            <td class="td1">9.00-9.40</td>  <!--Время-->
+            <!--РЎС‚СЂРѕРєР°-->
+            <td  class="td0">1</td> <!--Р—Р°РїРёСЃСЊ-->
+            <td class="td1">9.00-9.40</td>  <!--Р’СЂРµРјСЏ-->
             <td class="td2"></td>
-            <td class="td3">Литература</td>   <!--Вт-->
+            <td class="td3">Р›РёС‚РµСЂР°С‚СѓСЂР°</td>   <!--Р’С‚-->
             <td class="td4"></td>
-            <td class="td5">Алгебра</td>  <!--Чт-->
-            <td class="td6">Физика</td>
-            <td class="td7">География</td> <!--Сб-->
+            <td class="td5">РђР»РіРµР±СЂР°</td>  <!--Р§С‚-->
+            <td class="td6">Р¤РёР·РёРєР°</td>
+            <td class="td7">Р“РµРѕРіСЂР°С„РёСЏ</td> <!--РЎР±-->
         </tr>
-        <tr>   <!--Строка-->
-            <td class="td0">2</td> <!--Запись-->
-            <td class="td1">9.50-10.30</td>  <!--Время-->
-            <td class="td2">Алгебра</td>
-            <td class="td3">Литература</td>   <!--Вт-->
-            <td class="td4">Физика</td>
-            <td class="td5">Алгебра</td>  <!--Чт-->
-            <td class="td6">Физика</td>
-            <td class="td7">География</td> <!--Сб-->
-        </tr>
-        <tr>
-            <!--Строка-->
-            <td class="td0">3</td> <!--Запись-->
-            <td class="td1">10.40-11.20</td>  <!--Время-->
-            <td class="td2">Алгебра</td>
-            <td class="td3">История</td>   <!--Вт-->
-            <td class="td4">Физика</td>
-            <td class="td5">Биоглогия</td>  <!--Чт-->
-            <td class="td6">Химия</td>
-            <td class="td7">Биология</td> <!--Сб-->
+        <tr>   <!--РЎС‚СЂРѕРєР°-->
+            <td class="td0">2</td> <!--Р—Р°РїРёСЃСЊ-->
+            <td class="td1">9.50-10.30</td>  <!--Р’СЂРµРјСЏ-->
+            <td class="td2">РђР»РіРµР±СЂР°</td>
+            <td class="td3">Р›РёС‚РµСЂР°С‚СѓСЂР°</td>   <!--Р’С‚-->
+            <td class="td4">Р¤РёР·РёРєР°</td>
+            <td class="td5">РђР»РіРµР±СЂР°</td>  <!--Р§С‚-->
+            <td class="td6">Р¤РёР·РёРєР°</td>
+            <td class="td7">Р“РµРѕРіСЂР°С„РёСЏ</td> <!--РЎР±-->
         </tr>
         <tr>
-            <!--Строка-->
-            <td class="td0">4</td> <!--Запись-->
-            <td class="td1">11.30-12.10</td>  <!--Время-->
-            <td class="td2">Литеравтура</td>
-            <td class="td3">История</td>   <!--Вт-->
-            <td class="td4">Физ-ра</td>
-            <td class="td5">Правоведение</td>  <!--Чт-->
-            <td class="td6">Химия</td>
-            <td class="td7"></td> <!--Сб-->
+            <!--РЎС‚СЂРѕРєР°-->
+            <td class="td0">3</td> <!--Р—Р°РїРёСЃСЊ-->
+            <td class="td1">10.40-11.20</td>  <!--Р’СЂРµРјСЏ-->
+            <td class="td2">РђР»РіРµР±СЂР°</td>
+            <td class="td3">РСЃС‚РѕСЂРёСЏ</td>   <!--Р’С‚-->
+            <td class="td4">Р¤РёР·РёРєР°</td>
+            <td class="td5">Р‘РёРѕРіР»РѕРіРёСЏ</td>  <!--Р§С‚-->
+            <td class="td6">РҐРёРјРёСЏ</td>
+            <td class="td7">Р‘РёРѕР»РѕРіРёСЏ</td> <!--РЎР±-->
         </tr>
         <tr>
-            <!--Строка-->
-            <td class="td0">5</td> <!--Запись-->
-            <td class="td1">12.20-13.00</td>  <!--Время-->
-            <td class="td2">Физ-ра</td>
-            <td class="td3">Геометрия</td>   <!--Вт-->
-            <td class="td4">ОБЖ</td>
-            <td class="td5">Англ.яз</td>  <!--Чт-->
-            <td class="td6">Информатика</td>
-            <td class="td7"></td> <!--Сб-->
+            <!--РЎС‚СЂРѕРєР°-->
+            <td class="td0">4</td> <!--Р—Р°РїРёСЃСЊ-->
+            <td class="td1">11.30-12.10</td>  <!--Р’СЂРµРјСЏ-->
+            <td class="td2">Р›РёС‚РµСЂР°РІС‚СѓСЂР°</td>
+            <td class="td3">РСЃС‚РѕСЂРёСЏ</td>   <!--Р’С‚-->
+            <td class="td4">Р¤РёР·-СЂР°</td>
+            <td class="td5">РџСЂР°РІРѕРІРµРґРµРЅРёРµ</td>  <!--Р§С‚-->
+            <td class="td6">РҐРёРјРёСЏ</td>
+            <td class="td7"></td> <!--РЎР±-->
         </tr>
         <tr>
-            <!--Строка-->
-            <td class="td0">6</td> <!--Запись-->
-            <td class="td1">13.10-13.50</td>  <!--Время-->
-            <td class="td2">Химия</td>
-            <td class="td3">Геометрия</td>   <!--Вт-->
-            <td class="td4">ОБЖ</td>
-            <td class="td5"></td>  <!--Чт-->
-            <td class="td6">Информатика</td>
-            <td class="td7"></td> <!--Сб-->
+            <!--РЎС‚СЂРѕРєР°-->
+            <td class="td0">5</td> <!--Р—Р°РїРёСЃСЊ-->
+            <td class="td1">12.20-13.00</td>  <!--Р’СЂРµРјСЏ-->
+            <td class="td2">Р¤РёР·-СЂР°</td>
+            <td class="td3">Р“РµРѕРјРµС‚СЂРёСЏ</td>   <!--Р’С‚-->
+            <td class="td4">РћР‘Р–</td>
+            <td class="td5">РђРЅРіР».СЏР·</td>  <!--Р§С‚-->
+            <td class="td6">РРЅС„РѕСЂРјР°С‚РёРєР°</td>
+            <td class="td7"></td> <!--РЎР±-->
         </tr>
         <tr>
-            <!--Строка-->
-            <td class="td0">7</td> <!--Запись-->
-            <td class="td1">14.00-14.40</td>  <!--Время-->
+            <!--РЎС‚СЂРѕРєР°-->
+            <td class="td0">6</td> <!--Р—Р°РїРёСЃСЊ-->
+            <td class="td1">13.10-13.50</td>  <!--Р’СЂРµРјСЏ-->
+            <td class="td2">РҐРёРјРёСЏ</td>
+            <td class="td3">Р“РµРѕРјРµС‚СЂРёСЏ</td>   <!--Р’С‚-->
+            <td class="td4">РћР‘Р–</td>
+            <td class="td5"></td>  <!--Р§С‚-->
+            <td class="td6">РРЅС„РѕСЂРјР°С‚РёРєР°</td>
+            <td class="td7"></td> <!--РЎР±-->
+        </tr>
+        <tr>
+            <!--РЎС‚СЂРѕРєР°-->
+            <td class="td0">7</td> <!--Р—Р°РїРёСЃСЊ-->
+            <td class="td1">14.00-14.40</td>  <!--Р’СЂРµРјСЏ-->
             <td class="td2"></td>
-            <td class="td3"></td>   <!--Вт-->
-            <td class="td4">Англ.яз</td>
-            <td class="td5"></td>  <!--Чт-->
-            <td class="td6">Правоведение</td>
-            <td class="td7"></td> <!--Сб-->
+            <td class="td3"></td>   <!--Р’С‚-->
+            <td class="td4">РђРЅРіР».СЏР·</td>
+            <td class="td5"></td>  <!--Р§С‚-->
+            <td class="td6">РџСЂР°РІРѕРІРµРґРµРЅРёРµ</td>
+            <td class="td7"></td> <!--РЎР±-->
         </tr>
         <tr>
-            <!--Строка-->
-            <td class="td0">8</td> <!--Запись-->
-            <td class="td1">14.50-15.10</td>  <!--Время-->
+            <!--РЎС‚СЂРѕРєР°-->
+            <td class="td0">8</td> <!--Р—Р°РїРёСЃСЊ-->
+            <td class="td1">14.50-15.10</td>  <!--Р’СЂРµРјСЏ-->
             <td class="td2"></td>
-            <td class="td3"></td>   <!--Вт-->
+            <td class="td3"></td>   <!--Р’С‚-->
             <td class="td4"></td>
-            <td class="td5"></td>  <!--Чт-->
+            <td class="td5"></td>  <!--Р§С‚-->
             <td class="td6"></td>
-            <td class="td7"></td> <!--Сб-->
+            <td class="td7"></td> <!--РЎР±-->
         </tr>
     </table>
 </body>
@@ -203,8 +203,8 @@ Hokey
 </head>
 <body  class="FontColor">   
 
-    <h1 class="H1">Чемпионат мира по хоккею</h1>
-    <h2 class="H2">Таблица результатов</h2>
+    <h1 class="H1">Р§РµРјРїРёРѕРЅР°С‚ РјРёСЂР° РїРѕ С…РѕРєРєРµСЋ</h1>
+    <h2 class="H2">РўР°Р±Р»РёС†Р° СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ</h2>
 
    
   
@@ -213,22 +213,22 @@ Hokey
 
             <tr>
                 <td class="hokey_st1"></td>
-                <td class="hokey_st1">Команда</td>
+                <td class="hokey_st1">РљРѕРјР°РЅРґР°</td>
                 <td class="hokey_st1">1</td>
                 <td class="hokey_st1">2</td>
                 <td class="hokey_st1">3</td>
                 <td class="hokey_st1">4</td>
                 <td class="hokey_st1">5</td>
                 <td class="hokey_st1">6</td>
-                <td class="hokey_st1">Шайбы</td>
-                <td class="hokey_st1">Очки</td>
+                <td class="hokey_st1">РЁР°Р№Р±С‹</td>
+                <td class="hokey_st1">РћС‡РєРё</td>
 
             </tr>
 
             <tr>
-                <!--Строка 1-->
+                <!--РЎС‚СЂРѕРєР° 1-->
                 <td class="hokey_st1">1</td>
-                <td class="hokey_st1">"РОТОР"</td> <!--Команда-->
+                <td class="hokey_st1">"Р РћРўРћР "</td> <!--РљРѕРјР°РЅРґР°-->
                 <td class="hokey_stBlack"></td>
                 <td> 6:4</td> <!--2-->
                 <td>2:3</td>
@@ -236,13 +236,13 @@ Hokey
                 <td>2:1</td>
                 <td>0:0</td>   <!--6-->
                 <td class="hokey_stGreen">17-11</td>
-                <td class="hokey_stRed">7</td>   <!--Очки-->
+                <td class="hokey_stRed">7</td>   <!--РћС‡РєРё-->
             </tr>
 
             <tr>
-                <!--Строка 2-->
+                <!--РЎС‚СЂРѕРєР° 2-->
                 <td class="hokey_st1">2</td>
-                <td class="hokey_st1">"РОТАТОР"</td> <!--Команда-->
+                <td class="hokey_st1">"Р РћРўРђРўРћР "</td> <!--РљРѕРјР°РЅРґР°-->
                 <td>4:6</td>
                 <td class="hokey_stBlack"></td> <!--2-->
                 <td>5:4</td>
@@ -250,12 +250,12 @@ Hokey
                 <td>5:5</td>
                 <td>2:2</td>   <!--6-->
                 <td class="hokey_stGreen">21-10</td>
-                <td class="hokey_stRed">6</td>   <!--Очки-->
+                <td class="hokey_stRed">6</td>   <!--РћС‡РєРё-->
             </tr>
             <tr>
-                <!--Строка 3-->
+                <!--РЎС‚СЂРѕРєР° 3-->
                 <td class="hokey_st1">3</td>
-                <td class="hokey_st1">"УРОЖАЙ"</td> <!--Команда-->
+                <td class="hokey_st1">"РЈР РћР–РђР™"</td> <!--РљРѕРјР°РЅРґР°-->
                 <td>3:2</td>
                 <td>4:5</td> <!--2-->
                 <td class="hokey_stBlack"></td>
@@ -263,12 +263,12 @@ Hokey
                 <td>11:2</td>
                 <td>14:4</td>   <!--6-->
                 <td class="hokey_stGreen">32-14</td>
-                <td class="hokey_stRed">6</td>   <!--Очки-->
+                <td class="hokey_stRed">6</td>   <!--РћС‡РєРё-->
             </tr>
             <tr>
-                <!--Строка 4-->
+                <!--РЎС‚СЂРѕРєР° 4-->
                 <td class="hokey_st1">4</td>
-                <td class="hokey_st1">"МЕЧТА"</td> <!--Команда-->
+                <td class="hokey_st1">"РњР•Р§РўРђ"</td> <!--РљРѕРјР°РЅРґР°-->
                 <td>3:7</td>
                 <td>3:5</td> <!--2-->
                 <td>1:0</td>
@@ -276,12 +276,12 @@ Hokey
                 <td>1:1</td>
                 <td>10:0</td>   <!--6-->
                 <td class="hokey_stGreen">18-13</td>
-                <td class="hokey_stRed">5</td>   <!--Очки-->
+                <td class="hokey_stRed">5</td>   <!--РћС‡РєРё-->
             </tr>
             <tr>
-                <!--Строка 5-->
+                <!--РЎС‚СЂРѕРєР° 5-->
                 <td class="hokey_st1">5</td>
-                <td class="hokey_st1">"МЕЧТА"</td> <!--Команда-->
+                <td class="hokey_st1">"РњР•Р§РўРђ"</td> <!--РљРѕРјР°РЅРґР°-->
                 <td>1:2</td>
                 <td>5:5</td> <!--2-->
                 <td>2:11</td>
@@ -289,12 +289,12 @@ Hokey
                 <td class="hokey_stBlack"></td>
                 <td>8:3</td>   <!--6-->
                 <td class="hokey_stGreen">17-21</td>
-                <td class="hokey_stRed">4</td>   <!--Очки-->
+                <td class="hokey_stRed">4</td>   <!--РћС‡РєРё-->
             </tr>
             <tr>
-                <!--Строка 6-->
+                <!--РЎС‚СЂРѕРєР° 6-->
                 <td class="hokey_st1">6</td>
-                <td class="hokey_st1">"ОКАЗИЯ"</td> <!--Команда-->
+                <td class="hokey_st1">"РћРљРђР—РРЇ"</td> <!--РљРѕРјР°РЅРґР°-->
                 <td>0:0</td>
                 <td>2:2</td> <!--2-->
                 <td>4:14</td>
@@ -302,7 +302,7 @@ Hokey
                 <td>3:8</td>
                 <td class="hokey_stBlack"></td>   <!--6-->
                 <td class="hokey_stGreen">9-34</td>
-                <td class="hokey_stRed">2</td>   <!--Очки-->
+                <td class="hokey_stRed">2</td>   <!--РћС‡РєРё-->
             </tr>
 
         </table>
@@ -317,7 +317,7 @@ Kartinki v Table
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="краткое описание">
+    <meta name="description" content="РєСЂР°С‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ">
     <link href="StyleTable.css" rel="stylesheet" />
     <title></title>
 </head>
@@ -327,15 +327,15 @@ Kartinki v Table
         
 
         <tr>
-            <td > <img class="Risynok" src="Рис_3.jpg" /></td>
-            <td ><img class="Risynok" src="Рис_5.jpg" /></td>
-            <td ><img class="Risynok" src="Рис_6.jpg" /></td>
+            <td > <img class="Risynok" src="Р РёСЃ_3.jpg" /></td>
+            <td ><img class="Risynok" src="Р РёСЃ_5.jpg" /></td>
+            <td ><img class="Risynok" src="Р РёСЃ_6.jpg" /></td>
 
         </tr>
         <tr>
-            <td><img class="Risynok" src="Рис_0.jpg" /></td>
-            <td><img class="Risynok" src="Рис_1.jpg" /></td>
-            <td><img class="Risynok" src="Рис_4.jpg" /></td>
+            <td><img class="Risynok" src="Р РёСЃ_0.jpg" /></td>
+            <td><img class="Risynok" src="Р РёСЃ_1.jpg" /></td>
+            <td><img class="Risynok" src="Р РёСЃ_4.jpg" /></td>
         </tr>
         </table>
 </body>

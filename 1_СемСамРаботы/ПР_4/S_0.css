@@ -1,14 +1,29 @@
-﻿.grid {
+﻿div.grid0 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns:repeat(3, 1fr); /*повторить 3 рза*/
-    background-color: aqua;
-    grid-gap:2vw;
+    grid-template-columns: repeat(3, 1fr); /*повторить 1fr - 3 рза*/
+    grid-gap: 2vw;
 }
-    .grid > div {
+    div.grid0 > div {
         font-size: 21px;
         padding: .5em;
-        background-color: green;
+        background-color: goldenrod;
         text-align: center;
-        /*border: solid;*/  /*рамка*/
+    }
+
+div.grid1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr); /*повторить 1fr - 3 рза*/
+    background-color: blue;
+    /* grid-gap: 2vw; */
+    margin-top: 20px;        
+    padding: 15px;  
+    height: 200px;
+}
+    div.grid1 > div {
+        font-size: 21px;
+        background-color: lightskyblue;
+        text-align: center;
+        border: 1px solid; /*  рамка */
     }

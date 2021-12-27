@@ -1,21 +1,170 @@
-﻿img {
-    width: 100%;
-    height: 100%;
-    border:solid;
-}
+﻿/* Horizont */
 .flex_goriz {
     display: flex;
     background-color: blue;
-    flex-direction: row; /*горизонт*/
     justify-content: center;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     width: 600px;
 }
 .flex_goriz > img {
-        width: 150px;
-        margin: 9px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 35px;
-        align-items: flex-start;
+    width: 150px;
+    margin: 9px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 35px;
+    align-items: flex-start;
+    border: solid;
+}
+
+/* Vertik */
+.flex_vertik {
+    display: flex;
+    background-color: blue;
+    justify-content: flex-start;
+    align-content: center;
+    flex-flow: column wrap;
+    height: 700px;
+    width: 600px;
+}
+.flex_vertik > img {
+    width: 150px;
+    margin: 9px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 35px;
+    width: 150px;
+    height: 150px;
+    border: solid;
+}
+
+/* 3 up */
+img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid pink;
+}
+.flex_goriz3 {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 600px;
+    /*выравнить*/
+    align-items: flex-start; /*сверху*/
+}
+
+.flex_goriz3 > div {
+    width: 150px;
+    margin: 7px;
+    line-height: 75px;
+    font-size: 35px;
+}
+
+.flex_goriz3 div img.img1{
+    /*flex-grow: коэффициент увеличения элемента
+     при наличии свободного места в контейнере 0*/
+    flex-grow: 2;
+    /* flex-shrink: коэффициент уменьшения элемента 1*/
+}
+.flex_goriz3 .img2{
+    flex-shrink: 1;
+}
+.flex_goriz3 .img3 {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.flex_goriz3 .img4 {
+    flex-shrink: 5;
+}
+.flex_goriz3 .img5{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.flex_goriz3 .img6{
+    flex-shrink: 2;
+}
+
+/* 4 down */
+.flex_goriz4 {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 600px;
+    /*выравнить*/
+    align-items: flex-end; /*снизу*/
+}
+
+.flex_goriz4 > div {
+    width: 150px;
+    margin: 7px;
+    line-height: 75px;
+    font-size: 35px;
+}
+
+.flex_goriz4 > .img1{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz4 > .img2{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz4 > .img3 {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz4 > .img4 {
+    flex-shrink: 3;
+}
+.flex_goriz4 > .img5{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz4 > .img6{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/* 5 center */
+.flex_goriz5 {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 700px;
+    /*выравнить*/
+    align-items: center; /*по центру*/
+}
+
+.flex_goriz5 > div {
+    width: 201px;
+    margin: 7px;
+    line-height: 75px;
+    font-size: 35px;
+}
+
+.flex_goriz5 > .img1{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz5 > .img2{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz5 > .img3 {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz5 > .img4 {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz5 > .img5{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex_goriz5 > .img6{
+    flex-grow: 0;
+    flex-shrink: 0;
 }
